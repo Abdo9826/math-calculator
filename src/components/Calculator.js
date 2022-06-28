@@ -1,80 +1,80 @@
 function App() {
   return (
-    <div class='container my-4'>
-      <div class='calculator card'>
+    <div className="container my-4">
+      <div className="calculator card">
         <input
-          type='text'
-          class='calculator-screen z-depth-1'
-          value=''
+          type="text"
+          className="calculator-screen z-depth-1"
+          value=""
           disabled
         />
 
-        <div class='calculator-keys'>
-          <button type='button' class='operator btn btn-info' value='+'>
+        <div className="calculator-keys">
+          <button type="button" className="operator btn btn-info" value="+">
             +
           </button>
-          <button type='button' class='operator btn btn-info' value='-'>
+          <button type="button" className="operator btn btn-info" value="-">
             -
           </button>
-          <button type='button' class='operator btn btn-info' value='*'>
+          <button type="button" className="operator btn btn-info" value="*">
             &times;
           </button>
-          <button type='button' class='operator btn btn-info' value='/'>
+          <button type="button" className="operator btn btn-info" value="/">
             &divide;
           </button>
 
-          <button type='button' value='7' class='btn btn-light waves-effect'>
+          <button type="button" value="7" className="btn btn-light waves-effect">
             7
           </button>
-          <button type='button' value='8' class='btn btn-light waves-effect'>
+          <button type="button" value="8" className="btn btn-light waves-effect">
             8
           </button>
-          <button type='button' value='9' class='btn btn-light waves-effect'>
+          <button type="button" value="9" className="btn btn-light waves-effect">
             9
           </button>
 
-          <button type='button' value='4' class='btn btn-light waves-effect'>
+          <button type="button" value="4" className="btn btn-light waves-effect">
             4
           </button>
-          <button type='button' value='5' class='btn btn-light waves-effect'>
+          <button type="button" value="5" className="btn btn-light waves-effect">
             5
           </button>
-          <button type='button' value='6' class='btn btn-light waves-effect'>
+          <button type="button" value="6" className="btn btn-light waves-effect">
             6
           </button>
 
-          <button type='button' value='1' class='btn btn-light waves-effect'>
+          <button type="button" value="1" className="btn btn-light waves-effect">
             1
           </button>
-          <button type='button' value='2' class='btn btn-light waves-effect'>
+          <button type="button" value="2" className="btn btn-light waves-effect">
             2
           </button>
-          <button type='button' value='3' class='btn btn-light waves-effect'>
+          <button type="button" value="3" className="btn btn-light waves-effect">
             3
           </button>
 
-          <button type='button' value='0' class='btn btn-light waves-effect'>
+          <button type="button" value="0" className="btn btn-light waves-effect">
             0
           </button>
           <button
-            type='button'
-            class='decimal function btn btn-secondary'
-            value='.'
+            type="button"
+            className="decimal function btn btn-secondary"
+            value="."
           >
             .
           </button>
           <button
-            type='button'
-            class='all-clear function btn btn-danger btn-sm'
-            value='all-clear'
+            type="button"
+            className="all-clear function btn btn-danger btn-sm"
+            value="all-clear"
           >
             AC
           </button>
 
           <button
-            type='button'
-            class='equal-sign operator btn btn-default'
-            value='='
+            type="button"
+            className="equal-sign operator btn btn-default"
+            value="="
           >
             =
           </button>
