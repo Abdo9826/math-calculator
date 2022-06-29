@@ -24,12 +24,6 @@ class Calculator extends Component {
     return (
       <div className="container my-4">
         <div className="calculator card">
-          {/* <input
-            type='text'
-            className='calculator-screen z-depth-1'
-            value='12'
-            disabled
-          /> */}
           <div className="calculator-screen z-depth-1">
             <span>{next || operation || total || ''}</span>
           </div>
@@ -67,6 +61,7 @@ class Calculator extends Component {
               className="operator btn btn-info orange"
               value="/"
               onClick={this.handleClick}
+              name="/"
             >
               &divide;
             </button>
