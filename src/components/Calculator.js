@@ -1,4 +1,4 @@
-function App() {
+function Calculator() {
   return (
     <div className="container my-4">
       <div className="calculator card">
@@ -23,37 +23,77 @@ function App() {
             &divide;
           </button>
 
-          <button type="button" value="7" className="btn btn-light waves-effect">
+          <button
+            type="button"
+            value="7"
+            className="btn btn-light waves-effect"
+          >
             7
           </button>
-          <button type="button" value="8" className="btn btn-light waves-effect">
+          <button
+            type="button"
+            value="8"
+            className="btn btn-light waves-effect"
+          >
             8
           </button>
-          <button type="button" value="9" className="btn btn-light waves-effect">
+          <button
+            type="button"
+            value="9"
+            className="btn btn-light waves-effect"
+          >
             9
           </button>
 
-          <button type="button" value="4" className="btn btn-light waves-effect">
+          <button
+            type="button"
+            value="4"
+            className="btn btn-light waves-effect"
+          >
             4
           </button>
-          <button type="button" value="5" className="btn btn-light waves-effect">
+          <button
+            type="button"
+            value="5"
+            className="btn btn-light waves-effect"
+          >
             5
           </button>
-          <button type="button" value="6" className="btn btn-light waves-effect">
+          <button
+            type="button"
+            value="6"
+            className="btn btn-light waves-effect"
+          >
             6
           </button>
 
-          <button type="button" value="1" className="btn btn-light waves-effect">
+          <button
+            type="button"
+            value="1"
+            className="btn btn-light waves-effect"
+          >
             1
           </button>
-          <button type="button" value="2" className="btn btn-light waves-effect">
+          <button
+            type="button"
+            value="2"
+            className="btn btn-light waves-effect"
+          >
             2
           </button>
-          <button type="button" value="3" className="btn btn-light waves-effect">
+          <button
+            type="button"
+            value="3"
+            className="btn btn-light waves-effect"
+          >
             3
           </button>
 
-          <button type="button" value="0" className="btn btn-light waves-effect">
+          <button
+            type="button"
+            value="0"
+            className="btn btn-light waves-effect"
+          >
             0
           </button>
           <button
@@ -83,4 +123,4 @@ function App() {
     </div>
   );
 }
-export default App;
+export default Calculator;
