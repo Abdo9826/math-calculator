@@ -93,16 +93,16 @@ class Calculator extends Component {
             >
               9
             </button>
-
             <button
               type="button"
-              value="4"
-              className="btn btn-light waves-effect"
-              name="4"
+              className="operator btn btn-info orange"
+              value="%"
+              name="%"
               onClick={this.handleClick}
             >
-              4
+              %
             </button>
+
             <button
               type="button"
               value="5"
@@ -124,22 +124,24 @@ class Calculator extends Component {
 
             <button
               type="button"
-              value="1"
+              value="4"
               className="btn btn-light waves-effect"
-              name="1"
+              name="4"
               onClick={this.handleClick}
             >
-              1
+              4
             </button>
+
             <button
               type="button"
-              value="2"
-              className="btn btn-light waves-effect"
-              name="2"
+              className="operator btn btn-info orange"
+              value="+/-"
+              name="+/-"
               onClick={this.handleClick}
             >
-              2
+              +/-
             </button>
+
             <button
               type="button"
               value="3"
@@ -152,21 +154,21 @@ class Calculator extends Component {
 
             <button
               type="button"
-              value="0"
+              value="2"
               className="btn btn-light waves-effect"
-              name="0"
+              name="2"
               onClick={this.handleClick}
             >
-              0
+              2
             </button>
             <button
               type="button"
               className="decimal function btn btn-secondary"
-              value="."
-              name="."
+              value="1"
+              name="1"
               onClick={this.handleClick}
             >
-              .
+              1
             </button>
             <button
               type="button"
@@ -186,6 +188,26 @@ class Calculator extends Component {
               onClick={this.handleClick}
             >
               =
+            </button>
+
+            <button
+              type="button"
+              value="."
+              className="btn btn-light waves-effect"
+              name="."
+              onClick={this.handleClick}
+            >
+              .
+            </button>
+
+            <button
+              type="button"
+              value="0"
+              className="btn btn-light waves-effect"
+              name="0"
+              onClick={this.handleClick}
+            >
+              0
             </button>
           </div>
         </div>
