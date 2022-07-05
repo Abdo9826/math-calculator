@@ -45,6 +45,8 @@ html {
 }
 
 .calculator {
+  margin-top: 50px;
+  margin-left: 200px;
   border: 1px solid #ccc;
   border-radius: 5px;
   position: absolute;
@@ -86,4 +88,63 @@ button:hover {
 .calculator-keys {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+}
+
+/* //-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------// */
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(73, 79, 82);
+  color: #fff;
+  min-height: 10vh;
+}
+
+.nav-links {
+  margin-left: 130px;
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+
+.logo {
+  font-size: 30px;
+}
+
+li {
+  font-size: 15px;
+}
+
+.Quote {
+  margin-top: 200px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.calc {
+  margin-left: 20px;
+  margin-top: 100px;
+  font-size: 30px;
+}
+
+.home {
+  margin-left: 20px;
+  margin-top: 50px;
+  font-size: 40px;
+}
+
+.phome {
+  width: 1200px;
+  color: #222020;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.white {
+  color: #fff;
+  text-decoration: none;
 }

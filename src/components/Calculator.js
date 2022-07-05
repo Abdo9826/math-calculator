@@ -18,6 +18,7 @@ export default function Calculator() {
   const { total, next, operation } = calcObj;
   return (
     <div className="container my-4">
+      <h1 className="calc">Lets do some Math!</h1>
       <div className="calculator card">
         <div className="calculator-screen z-depth-1">
           <span>{next || operation || total || ''}</span>
